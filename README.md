@@ -2,6 +2,8 @@
 Este es un proyecto que utiliza Anaconda para la creación de entornos y la instalación de dependencias necesarias.
 ## Requisitos previos
 - Tener [Anaconda](https://www.anaconda.com/products/distribution) instalado en tu sistema.
+![Descripción](https://github.com/IsyelDev/Ambiente_Python/blob/main/Captura%20de%20pantalla%202025-01-16%20205543.png)
+![Descripción](https://github.com/IsyelDev/Ambiente_Python/blob/main/segundo.png)
 ## Crear un nuevo entorno
 Para crear un nuevo entorno en Anaconda, utiliza el siguiente comando en tu terminal:
 `conda create --name nombre_del_entorno python=3.x`
