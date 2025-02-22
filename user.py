@@ -74,5 +74,12 @@ def eliminar_usuario(id):
     flash('Usuario eliminado exitosamente', 'danger')
     return redirect(url_for('mostrar_usuarios'))
 
+def eliminar_usuario(id):
+    usuario = Usuario.query.get_or_404(id)
+    db.session.delete(usuario)
+    db.session.commit()
+    flash('Usuario eliminado exitosamente', 'danger')
+    return redirect(url_for('mostrar_usuarios'))
+
 if __name__ == "__main__":
     app.run(debug=True)
