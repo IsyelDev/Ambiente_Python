@@ -77,3 +77,15 @@ Instalar dependencias en Jupyter:
 ```bash
 !pip install nombre_paquete
 ```
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
