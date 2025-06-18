@@ -158,5 +158,12 @@
         "interes": 6.3,
         "plazo": 24,
         "estado": "pendiente"
-    }
+    },  {
+        "id": 2,
+        "nombre": "María González",
+        "monto": 15000,
+        "interes": 4.5,
+        "plazo": 18,
+        "estado": "pendiente"
+    },
 ]
