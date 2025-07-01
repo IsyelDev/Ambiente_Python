@@ -1,0 +1,22 @@
+Con esta estructura de archivos y carpetas quiero que crees 10 necesario para poder crear
+usuarios y registrarse e iniciar sesión. Usaremos el sistema de autenticación que provee
+supabase.
+Considera:
+- Crea los DTO con validaciones correspondientes de campos
+- Crea las entidades también validando los campos
+- Crea documentación en swagger para estos endpoints pero separados de los servicios y los
+controladores. No quiero código spaggeti ni mezclado entre documentación de API con lógica de
+negocio o servicios.
+- Si agregas o actualizas dependencias, hazlo siempre con Yarn
+- Si necesitas que agregue o modifique contenido en mis .env y .env.example dame los cambios
+para hacerlos yo.
+
+
+dime qué nuevas variables debo tener en mis .env y .env.example
+dime qué debo obtener de mi cuenta de Supabase
+no hay forma de que se creen las tablas a demanda desde eI código?
+si la hay hazlo tipo migrations o algo así.
+Otro punto: Veo varios métodos en los controladores con los
+decoradores ApiOperation y Api Response que ensucian eI códgio. Hay
+forma de hacer esas declaraciones en otro archivo y simplemente
+importarlas donde se debe usar. Si la hay, hazlo
