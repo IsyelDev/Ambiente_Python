@@ -16,3 +16,16 @@ with open("output.csv", "w", newline="", encoding="utf-8") as csv_file:
   writer.writerow(["Nombre", "Edad", "Ciudad"]) # header
   writer.writerow(["Charlie", 22, "Boston"])
   writer.writerow(["Diana", 28, "Chicago"])
+
+def clasificar_valores(**kwargs):
+    numeros = []
+    textos = []
+    otros = []
+    for v in kwargs.values():
+        if isinstance(v, (int, float)) and not isinstance(v, bool):
+            numeros.append(v)
+        elif isinstance(v, str):
+            textos.append(v)
+        else:
+            otros.append(v)
+    return numeros, textos, otros
